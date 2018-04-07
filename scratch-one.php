@@ -1,4 +1,7 @@
-<?php
+<div class="linetext"><div class="text">Läs också</div></div>
+
+<div class="related-posts-main">
+	<?php
 
 	$categories = get_the_category();
 	$category_id = $categories[0]->cat_ID;
@@ -27,3 +30,5 @@
 	<?php else : ?>
 		<p><?php __('No News'); ?></p>
 	<?php endif; ?>
+</div>
+<div style="clear: both;"></div>
